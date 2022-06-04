@@ -205,6 +205,12 @@ def generar_carta():
 
 
 def programa():
+    print("""    ♥♦#######################♣♠
+    BIENVENIDO A BLACKJACK 1k12
+    ♥♦#######################♣♠\n
+    INSTRUCCIONES: El que llegue mas cerca de 21 gana!\n
+    Iniciando configuracion inicial . . . """)
+
     # Nombre del jugador
     jugador = input("Ingrese nombre del jugador: ")
     # Si vacia se llama anonymus
